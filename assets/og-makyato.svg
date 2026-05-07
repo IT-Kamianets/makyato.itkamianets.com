@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2b1d17"/><stop offset="1" stop-color="#c9824b"/></linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1000" cy="140" r="190" fill="#fff7ed" opacity=".14"/>
+  <circle cx="160" cy="560" r="260" fill="#f2c8b8" opacity=".12"/>
+  <text x="88" y="250" fill="#fff7ed" font-family="Georgia, serif" font-size="116" font-weight="700">MAK'YATO</text>
+  <text x="96" y="328" fill="#f2c8b8" font-family="Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="4">КАВ'ЯРНЯ У КАМ'ЯНЦІ-ПОДІЛЬСЬКОМУ</text>
+  <text x="96" y="430" fill="#fff7ed" font-family="Arial, sans-serif" font-size="42" font-weight="700">Кава • десерти • затишок</text>
+</svg>

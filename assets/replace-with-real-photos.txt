@@ -1,0 +1,9 @@
+Ці SVG-файли — декоративні заглушки.
+Для готового комерційного сайту краще замінити їх на реальні фото MAK'YATO з дозволу власника:
+
+hero-coffee.svg
+about-cafe.svg
+gallery-terrace.svg
+gallery-desserts.svg
+gallery-drinks.svg
+og-makyato.svg

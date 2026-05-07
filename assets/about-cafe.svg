@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 720" role="img" aria-label="Інтер'єр кав'ярні">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff7ed"/><stop offset="1" stop-color="#eac9ad"/></linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6d4534"/><stop offset="1" stop-color="#2b1d17"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="22" stdDeviation="18" flood-opacity=".18"/></filter>
+  </defs>
+  <rect width="900" height="720" fill="url(#wall)"/>
+  <circle cx="760" cy="115" r="170" fill="#f2c8b8" opacity=".34"/>
+  <circle cx="135" cy="140" r="118" fill="#c9824b" opacity=".18"/>
+  <g opacity=".42" stroke="#c9824b" stroke-width="3">
+    <path d="M0 500h900M0 540h900M0 580h900M0 620h900"/>
+  </g>
+  <g transform="translate(92 86)" filter="url(#shadow)">
+    <rect x="0" y="0" width="718" height="430" rx="40" fill="#fffdf8"/>
+    <rect x="44" y="48" width="630" height="310" rx="30" fill="#332119"/>
+    <rect x="86" y="88" width="250" height="220" rx="18" fill="#533629"/>
+    <rect x="368" y="88" width="260" height="220" rx="18" fill="#6d4534"/>
+    <circle cx="140" cy="140" r="22" fill="#e0a06d"/>
+    <circle cx="196" cy="140" r="22" fill="#f2c8b8"/>
+    <circle cx="252" cy="140" r="22" fill="#fff7ed"/>
+    <rect x="112" y="202" width="172" height="18" rx="9" fill="#fff7ed" opacity=".7"/>
+    <rect x="112" y="240" width="130" height="18" rx="9" fill="#fff7ed" opacity=".46"/>
+    <path d="M448 260c-48-20-62-55-42-98 18-40 66-54 104-32 38 22 48 75 20 112-22 30-52 34-82 18z" fill="#f4dbc7"/>
+    <path d="M476 154c14-12 46 0 50 23" stroke="#332119" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <rect x="92" y="354" width="536" height="36" rx="18" fill="#c9824b"/>
+  </g>
+  <g transform="translate(130 525)">
+    <rect x="0" y="0" width="640" height="54" rx="27" fill="url(#wood)"/>
+    <rect x="64" y="46" width="42" height="112" rx="18" fill="#4b2f24"/>
+    <rect x="530" y="46" width="42" height="112" rx="18" fill="#4b2f24"/>
+    <g transform="translate(250 -84)">
+      <ellipse cx="78" cy="150" rx="82" ry="15" fill="#2b1d17" opacity=".14"/>
+      <path d="M18 42h124c-3 80-25 130-62 148C42 172 22 122 18 42z" fill="#fff7ed"/>
+      <ellipse cx="80" cy="42" rx="66" ry="18" fill="#fffdf8"/>
+      <ellipse cx="80" cy="41" rx="48" ry="10" fill="#6d4534"/>
+    </g>
+  </g>
+</svg>
