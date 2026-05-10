@@ -1,22 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 720" role="img" aria-label="Напої">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2b1d17"/><stop offset="1" stop-color="#6d4534"/></linearGradient>
-    <linearGradient id="drink" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f2c8b8"/><stop offset=".55" stop-color="#c9824b"/><stop offset="1" stop-color="#6d4534"/></linearGradient>
-    <filter id="s"><feDropShadow dx="0" dy="28" stdDeviation="20" flood-color="#000" flood-opacity=".25"/></filter>
-  </defs>
-  <rect width="700" height="720" fill="url(#bg)"/>
-  <circle cx="125" cy="125" r="140" fill="#c9824b" opacity=".24"/>
-  <circle cx="610" cy="610" r="165" fill="#f2c8b8" opacity=".18"/>
-  <g transform="translate(195 88)" filter="url(#s)">
-    <path d="M70 88h190l-32 390c-4 46-38 80-84 80h-8c-46 0-80-34-84-80z" fill="#fff7ed" opacity=".94"/>
-    <path d="M88 205h154l-22 260c-3 33-28 57-61 57h-4c-34 0-59-24-62-57z" fill="url(#drink)"/>
-    <ellipse cx="165" cy="88" rx="105" ry="36" fill="#fffdf8"/>
-    <ellipse cx="165" cy="88" rx="78" ry="22" fill="#f2c8b8" opacity=".8"/>
-    <path d="M135 58L92 12" stroke="#fff7ed" stroke-width="16" stroke-linecap="round"/>
-    <path d="M116 30c22-16 44-16 66 0" stroke="#77b255" stroke-width="12" stroke-linecap="round" fill="none"/>
-    <circle cx="120" cy="215" r="20" fill="#fff7ed" opacity=".72"/>
-    <circle cx="194" cy="280" r="16" fill="#fff7ed" opacity=".58"/>
-    <circle cx="150" cy="358" r="14" fill="#fff7ed" opacity=".5"/>
-  </g>
-  <text x="72" y="630" fill="#fff7ed" font-family="Georgia, serif" font-size="58" font-weight="700">Coffee & drinks</text>
+<svg width="420" height="260" viewBox="0 0 420 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Drinks illustration</title>
+
+  <!-- background blobs -->
+  <circle cx="92" cy="206" r="42" fill="#FFF7ED" opacity="0.75"></circle>
+  <circle cx="327" cy="68" r="54" fill="#F2C8B8" opacity="0.35"></circle>
+  <path d="M46 221C104 191 167 232 221 206C272 182 311 158 373 183" stroke="#E8C2A5" stroke-width="5" stroke-linecap="round" opacity="0.45"></path>
+
+  <!-- coffee cup shadow -->
+  <ellipse cx="105" cy="220" rx="68" ry="13" fill="#2B1D17" opacity="0.16"></ellipse>
+
+  <!-- coffee cup -->
+  <path d="M54 83H143L134 197C133 209 123 218 111 218H86C74 218 64 209 63 197L54 83Z" fill="#FFF7ED"></path>
+  <path d="M61 95H136L128 195C127 202 121 208 113 208H84C76 208 70 202 69 195L61 95Z" fill="#F8EADC"></path>
+  <path d="M143 110H159C177 110 189 123 187 140C185 157 171 169 153 169H138L140 151H154C162 151 169 146 170 139C171 132 166 127 158 127H142L143 110Z" fill="#FFF7ED"></path>
+  <ellipse cx="98.5" cy="83" rx="45.5" ry="13" fill="#4B2F24"></ellipse>
+  <ellipse cx="98.5" cy="83" rx="31.5" ry="7.5" fill="#C9824B"></ellipse>
+
+  <!-- steam -->
+  <path d="M80 61C70 47 91 38 80 24" stroke="#FFF7ED" stroke-width="8" stroke-linecap="round"></path>
+  <path d="M103 61C93 47 114 38 103 24" stroke="#FFF7ED" stroke-width="8" stroke-linecap="round"></path>
+  <path d="M126 61C116 47 137 38 126 24" stroke="#FFF7ED" stroke-width="8" stroke-linecap="round"></path>
+
+  <!-- iced drink shadow -->
+  <ellipse cx="223" cy="224" rx="58" ry="12" fill="#2B1D17" opacity="0.14"></ellipse>
+
+  <!-- iced drink glass -->
+  <path d="M177 73H268L255 202C254 214 244 223 232 223H209C197 223 187 214 186 202L177 73Z" fill="#FFFFFF"></path>
+  <path d="M187 88H258L248 198C247 206 240 212 232 212H209C201 212 194 206 193 198L187 88Z" fill="#E9F6F4"></path>
+  <path d="M191 124H254L247 198C246 204 240 209 233 209H209C202 209 196 204 195 198L191 124Z" fill="#D99A54"></path>
+  <path d="M191 124C205 113 219 133 233 123C242 117 249 119 254 124L252 143C237 134 224 152 209 141C201 135 195 136 190 141L191 124Z" fill="#F6C17A"></path>
+  <rect x="196" y="101" width="17" height="17" rx="4" fill="#FFFFFF" opacity="0.75"></rect>
+  <rect x="225" y="94" width="18" height="18" rx="4" fill="#FFFFFF" opacity="0.65"></rect>
+  <rect x="217" y="121" width="15" height="15" rx="4" fill="#FFFFFF" opacity="0.55"></rect>
+
+  <!-- straw -->
+  <path d="M236 34L221 134" stroke="#A76335" stroke-width="7" stroke-linecap="round"></path>
+  <path d="M236 34H267" stroke="#A76335" stroke-width="7" stroke-linecap="round"></path>
+
+  <!-- lemon slice -->
+  <circle cx="270" cy="93" r="20" fill="#F6C96A"></circle>
+  <circle cx="270" cy="93" r="13" fill="#FFE8A4"></circle>
+  <path d="M270 80V106M257 93H283M261 84L279 102M279 84L261 102" stroke="#D99A54" stroke-width="2" stroke-linecap="round"></path>
+
+  <!-- cocktail shadow -->
+  <ellipse cx="326" cy="221" rx="58" ry="12" fill="#2B1D17" opacity="0.13"></ellipse>
+
+  <!-- cocktail glass -->
+  <path d="M286 71H368L329 138H325L286 71Z" fill="#FFFFFF"></path>
+  <path d="M299 82H355L328 128H326L299 82Z" fill="#F2C8B8"></path>
+  <path d="M306 95C318 88 332 104 345 94L335 112C325 118 313 105 300 113L306 95Z" fill="#C9824B" opacity="0.8"></path>
+  <path d="M327 138V206" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round"></path>
+  <path d="M294 211H360" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round"></path>
+
+  <!-- garnish -->
+  <circle cx="367" cy="71" r="18" fill="#F6C96A"></circle>
+  <circle cx="367" cy="71" r="11" fill="#FFE8A4"></circle>
+  <path d="M367 54V88M350 71H384M355 59L379 83M379 59L355 83" stroke="#D99A54" stroke-width="2" stroke-linecap="round"></path>
+  <path d="M349 54L372 85" stroke="#4B2F24" stroke-width="4" stroke-linecap="round"></path>
+
+  <!-- bubbles -->
+  <circle cx="159" cy="53" r="5" fill="#FFF7ED" opacity="0.7"></circle>
+  <circle cx="285" cy="152" r="4" fill="#FFF7ED" opacity="0.55"></circle>
+  <circle cx="382" cy="126" r="6" fill="#FFF7ED" opacity="0.5"></circle>
 </svg>
